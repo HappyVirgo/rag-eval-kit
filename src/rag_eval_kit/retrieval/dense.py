@@ -113,7 +113,8 @@ class HashingTfidfEmbedder:
 def _l2_normalize(matrix: FloatMatrix) -> FloatMatrix:
     norms = np.linalg.norm(matrix, axis=1, keepdims=True)
     norms[norms == 0] = 1.0
-    return (matrix / norms).astype(np.float32)
+    normalized: FloatMatrix = (matrix / norms).astype(np.float32)
+    return normalized
 
 
 class DenseRetriever:
