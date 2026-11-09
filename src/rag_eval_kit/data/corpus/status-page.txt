@@ -1,0 +1,7 @@
+Synthetic documentation for Larkspur, a fictional project-management SaaS. Not a real product.
+
+Larkspur publishes live system status at status.larkspur.example. The status page shows the health of the web app, the API, webhooks, and integrations separately.
+
+You can subscribe to incident updates by email, RSS, or a Slack channel. Scheduled maintenance is announced at least 72 hours in advance and is performed on Sundays between 02:00 and 04:00 UTC.
+
+Post-incident reports are published within 5 business days for any incident that affected more than 5% of API requests.
